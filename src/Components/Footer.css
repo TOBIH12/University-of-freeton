@@ -1,0 +1,140 @@
+.footer{
+    min-height: 70vh;
+    background-color: #242424;
+    width: 100%;
+}
+.email-section{
+    border-bottom: 1px solid #9e9696;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+   
+    
+    align-items: center;
+}
+.email-section > h1{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-left: 0;
+
+}
+.email-section > form{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    justify-content: center;
+}
+#email{
+    resize: none;
+    height: 2.6rem;
+    width: 25rem;
+    background-color: #9e9696;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+    outline: none;
+    border-radius: 0.5rem;
+   
+}
+#email::placeholder{
+    color: #fff;
+}
+.email-btn{
+    margin: 0;
+    padding: 0.5rem 4rem;
+}
+
+
+/* CREDITS */
+
+.credits-section{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding: 4rem 3rem;
+    gap: 1rem;
+    border-bottom: 1px solid #9e9696;
+}
+.credits > h1{
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.credits > p{
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.icons{
+    font-size: 1.7rem;
+    color: #fff;
+}
+.flex{
+    width: 3rem;
+    gap: 0.5rem;
+}
+
+.links{
+    height: 100%;
+    list-style: none;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 300;
+    
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+li{
+    margin-bottom: 1.8rem;
+    
+}
+.work{
+    display: flex;
+   gap: 1rem;
+}
+
+/* COPYRIGHT */
+
+.copyright-section{
+    justify-content: center;
+    text-align: center;
+    padding: 0.7rem 0;
+}
+.copyright-section > h1{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+@media screen and (max-width: 850px){
+    .credits-section{
+        display: flex;
+        flex-direction: column;
+       
+       
+    }
+}
+
+@media screen and (max-width: 700px){
+    .email-section > form{
+        display: flex;
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+    #email{
+        width: 100%;
+    }
+    .email-btn{
+        width: 100%;
+    }
+    .copyright-section > h1{
+        font-size: 1rem;
+        
+    }
+}

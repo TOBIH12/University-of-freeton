@@ -1,0 +1,7 @@
+.research-page{
+    background: url('./../assets/images/home.jpeg') center center/cover no-repeat;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    text-align: center;
+}

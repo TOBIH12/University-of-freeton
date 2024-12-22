@@ -1,0 +1,22 @@
+.second{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.card-dates > h3{
+    font-size: 1.9rem;
+    color: var(--color-main);
+}
+.card-dates > .month{
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+.time{
+    color: var(--color-main);
+}
+
+.card-texts > h2{
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+}

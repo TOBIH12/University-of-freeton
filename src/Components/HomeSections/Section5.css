@@ -1,0 +1,41 @@
+.apply-section{
+    background: url('./../../assets/images/apply.jpeg') center center/cover no-repeat;
+    background-color: rgba(133, 132, 132, 0.76);
+    background-blend-mode: multiply;
+    width: 100%;
+    min-height: 70vh;
+    margin-bottom: 0;
+}
+
+.section-writeups{
+    width: 60%;
+    height: 70vh;
+    margin-left: 40%;
+    padding: 4.5rem 4rem;
+    background-color: rgba(71, 53, 88, 0.5);
+    
+    color: #fff;
+}
+
+.apply-section > .section-writeups > h1{
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom: 0.6rem;
+}
+.apply-section > .section-writeups > h3{
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+.apply-section > .section-writeups > p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .section-writeups{
+        width: 100%;
+        margin-left: 0;
+        padding: 2rem 2rem;
+    }
+}

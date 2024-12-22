@@ -1,0 +1,13 @@
+.admission-page{
+    background: url('./../assets/images/Frame1.png') center center/cover no-repeat;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    text-align: center;
+    
+}
+ .page-title{
+    font-size: 7rem;
+    color: #fff;
+    padding-top: 12rem;
+}

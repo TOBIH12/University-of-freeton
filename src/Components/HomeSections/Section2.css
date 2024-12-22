@@ -1,0 +1,35 @@
+.stats-section{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    background-color: var(--color-main);
+    color: var(--color-match);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.stats{
+    justify-content: center;
+   margin-left: 1rem;
+   cursor: pointer;
+}
+.stats-section > .stats > h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+    color: #fff;
+}
+.stats-section > .stats > p{
+    color: var(--color-dim-white);
+}
+
+@media screen and (max-width: 700px){
+    .stats-section > .stats > h2{
+        font-size: 1.6rem;
+        
+    }
+    .girl > img{
+        width: 80%;
+    }
+}

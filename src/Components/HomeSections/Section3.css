@@ -1,0 +1,30 @@
+.contents{
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 1.6rem;
+}
+.content-image{
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-main);
+}
+
+.contents > .content-texts > h2{
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+.contents > .content-texts > p{
+    color: var(--color-main);
+}
+.my-video{
+    width: 35rem;
+    height: 30rem;
+}
+
+@media screen and (max-width: 700px) {
+    .my-video{
+        width: 29rem;
+       
+    }
+}
